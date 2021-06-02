@@ -3,25 +3,89 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zeyad Hesham's profile</title>
+    <title>Responsive</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
   </head>
+  <body>
+    <div class="fullWrapper">
+      <header class="header">
+        <h2>Zeyad Hesham</h2>
+          <nav>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#portfolio">PORTFOLIO </a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+      </header>  
+        <div class="introduction">
+          <img class="profileImage" src="images/responsive-layout-profile.png">
+          <p>I am a third year computer science student, currenly studying in the UAE. I recently started to fall in love with html.
+            That lead me to start my tech-degree here in tree house!</p>
+        </div>
 
+        <h3 id="portfolio" >PORTFOLIO</h3>
 
-  <header>
-    <div class="header">
-      <h2>Zeyad Hesham</h2>
+        <div  class="main-container">
+          <div class="col cont-1">
+            <img class="containerImages"src="images/portfolio-1.png" alt="Marketing Page">
+            <h3>Marketing Page</h3>
+            <p>This shows the front page of a marketing website meant for a specific business I'm interestred in</p>
+          </div>
+          <div class="col cont-2">
+            <img class="containerImages"src="images/portfolio-2.png" alt="Marketing Page">
+            <h3>Search Page</h3>
+            <p>This project searches through a specific database to find information the user wants to look up</p>
 
-          <span>HOME </span>
-          <span>PORTFOLIO </span>
-          <span>CONTACT </span>
+          </div>
+          <div class="col cont-3">
+            <img class="containerImages"src="images/portfolio-3.png" alt="Marketing Page">
+            <h3>Travel Map</h3>
+            <p>This project compares travel times based on different transportation methods and tells you the best one</p>
+          </div>
+          <div class="col cont-4">
+            <img class="containerImages"src="images/portfolio-4.png" alt="Marketing Page">
+            <h3>Map of favorite spots</h3>
+            <p>This project uses maping apis to plot points from my favorite spots in the city for a do it yourself walking tour</p>
 
-      <img id="profileImage" src="images/responsive-layout-profile.png" alt="Profile Picture">
+          </div>
+          <div class="col cont-5">
+            <img class="containerImages"src="images/portfolio-5.png" alt="Marketing Page">
+            <h3>Photo Gallery</h3>
+            <p>This project shows pictures from a recent trip to a viewer and allows them to easily navigate through them</p>
+          </div>
+          <div class="col cont-6">
+            <img class="containerImages"src="images/portfolio-6.png" alt="Marketing Page">
+            <h3>Calculator</h3>
+            <p>Someone can entter the numbers they want, press the big blue button and gget the result</p>
+          </div>
+        </div>
 
+        <div id="contact" class="contact">
+          <h3>Contact</h3>
+          <p>If you're interested in chatting or would like to know more information about what I have been working on, I'd love to header
+          from you!</p>
+          <br>
+          <p>Phone <strong> +1 (111) 555-1234</strong></p>
+          <p>Email <strong>zeyadhesho00@gmail.com</strong></p>
+        </div>
+
+        <footer class="footer">
+          <span>Zeyad Hesham</span>
+          <div class="side-1">
+          <a href="#">Back to the top</a>
+          </div>
+          <div class="side-2">
+            <a href="#">HOME</a>
+            <a href="#portfolio">PORTFOLIO </a>
+            <a href="#contact">CONTACT</a>
+          </div>
+        </footer>
     </div>
+  </body>
 
-  </header>
 
 </html>
